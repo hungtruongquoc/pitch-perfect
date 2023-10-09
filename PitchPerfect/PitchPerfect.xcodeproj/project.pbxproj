@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193654572AD486B400CBDBAB /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193654552AD486B400CBDBAB /* PlaySoundViewController.swift */; };
+		193654582AD486B400CBDBAB /* PlaySoundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193654562AD486B400CBDBAB /* PlaySoundViewController.xib */; };
+		1936545A2AD4A2E200CBDBAB /* PlaySoundViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193654592AD4A2E200CBDBAB /* PlaySoundViewController+Audio.swift */; };
 		1961A58E2AA2E6ED00717E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961A58D2AA2E6ED00717E57 /* AppDelegate.swift */; };
 		1961A5902AA2E6ED00717E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961A58F2AA2E6ED00717E57 /* SceneDelegate.swift */; };
-		1961A5922AA2E6ED00717E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961A5912AA2E6ED00717E57 /* ViewController.swift */; };
+		1961A5922AA2E6ED00717E57 /* RecordSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1961A5912AA2E6ED00717E57 /* RecordSoundViewController.swift */; };
 		1961A5952AA2E6ED00717E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1961A5932AA2E6ED00717E57 /* Main.storyboard */; };
 		1961A5972AA2E6EE00717E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1961A5962AA2E6EE00717E57 /* Assets.xcassets */; };
 		1961A59A2AA2E6EE00717E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1961A5982AA2E6EE00717E57 /* LaunchScreen.storyboard */; };
@@ -36,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		193654552AD486B400CBDBAB /* PlaySoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		193654562AD486B400CBDBAB /* PlaySoundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaySoundViewController.xib; sourceTree = "<group>"; };
+		193654592AD4A2E200CBDBAB /* PlaySoundViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundViewController+Audio.swift"; sourceTree = "<group>"; };
 		1961A58A2AA2E6ED00717E57 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1961A58D2AA2E6ED00717E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1961A58F2AA2E6ED00717E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1961A5912AA2E6ED00717E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1961A5912AA2E6ED00717E57 /* RecordSoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundViewController.swift; sourceTree = "<group>"; };
 		1961A5942AA2E6ED00717E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1961A5962AA2E6EE00717E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1961A5992AA2E6EE00717E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +107,14 @@
 			children = (
 				1961A58D2AA2E6ED00717E57 /* AppDelegate.swift */,
 				1961A58F2AA2E6ED00717E57 /* SceneDelegate.swift */,
-				1961A5912AA2E6ED00717E57 /* ViewController.swift */,
+				1961A5912AA2E6ED00717E57 /* RecordSoundViewController.swift */,
 				1961A5932AA2E6ED00717E57 /* Main.storyboard */,
 				1961A5962AA2E6EE00717E57 /* Assets.xcassets */,
 				1961A5982AA2E6EE00717E57 /* LaunchScreen.storyboard */,
 				1961A59B2AA2E6EE00717E57 /* Info.plist */,
+				193654552AD486B400CBDBAB /* PlaySoundViewController.swift */,
+				193654562AD486B400CBDBAB /* PlaySoundViewController.xib */,
+				193654592AD4A2E200CBDBAB /* PlaySoundViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -191,7 +200,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					1961A5892AA2E6ED00717E57 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -233,6 +242,7 @@
 			files = (
 				1961A59A2AA2E6EE00717E57 /* LaunchScreen.storyboard in Resources */,
 				1961A5972AA2E6EE00717E57 /* Assets.xcassets in Resources */,
+				193654582AD486B400CBDBAB /* PlaySoundViewController.xib in Resources */,
 				1961A5952AA2E6ED00717E57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1961A5922AA2E6ED00717E57 /* ViewController.swift in Sources */,
+				1961A5922AA2E6ED00717E57 /* RecordSoundViewController.swift in Sources */,
 				1961A58E2AA2E6ED00717E57 /* AppDelegate.swift in Sources */,
+				1936545A2AD4A2E200CBDBAB /* PlaySoundViewController+Audio.swift in Sources */,
+				193654572AD486B400CBDBAB /* PlaySoundViewController.swift in Sources */,
 				1961A5902AA2E6ED00717E57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -412,6 +425,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
